@@ -1,0 +1,38 @@
+.checkout-page {
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.checkout-form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+}
+
+.form-group {
+    display: contents; /* To use the grid of the parent */
+}
+
+.form-group label {
+    align-self: center;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    grid-column: span 2;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: #555;
+}
