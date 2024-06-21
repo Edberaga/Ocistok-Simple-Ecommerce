@@ -1,0 +1,64 @@
+@use 'base';
+
+#root {
+  height: 100%;
+  text-align: center;
+  position: relative;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #242424;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 25px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.33s ease-in;
+}
+
+nav a:hover {
+  font-weight: 600;
+}
+
+.product-list {
+  @extend %flex-center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  flex: 1 0 30%;
+}
+
+//Checkout Styles
+
+.checkout-page {
+  display: flex;
+  .form-section {
+    flex: 2;
+  }
+  .cart-section {
+    flex: 1;
+  }
+}
+
+.checkout-list {
+  padding-inline-start: 0px;
+  li {
+    list-style-type: none;
+  }
+}
