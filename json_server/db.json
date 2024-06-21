@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Office Chair",
+      "description": "Ergonomic office chair with lumbar support",
+      "price": 150
+    },
+    {
+      "id": "2",
+      "name": "Standing Desk",
+      "description": "Adjustable height standing desk",
+      "price": 300
+    },
+    {
+      "id": "3",
+      "name": "Monitor",
+      "description": "24-inch Full HD monitor",
+      "price": 200
+    },
+    {
+      "id": "4",
+      "name": "Keyboard",
+      "description": "Mechanical keyboard with RGB lighting",
+      "price": 100
+    },
+    {
+      "id": "5",
+      "name": "Mouse",
+      "description": "Wireless mouse with adjustable DPI",
+      "price": 50
+    },
+    {
+      "id": "6",
+      "name": "Desk Lamp",
+      "description": "LED desk lamp with adjustable brightness",
+      "price": 40
+    }
+  ],
+  "cart": [
+    {
+      "id": "5",
+      "name": "Mouse",
+      "description": "Wireless mouse with adjustable DPI",
+      "price": 50
+    },
+    {
+      "id": "1",
+      "name": "Office Chair",
+      "description": "Ergonomic office chair with lumbar support",
+      "price": 150
+    },
+    {
+      "id": "6",
+      "name": "Desk Lamp",
+      "description": "LED desk lamp with adjustable brightness",
+      "price": 40
+    }
+  ]
+}
